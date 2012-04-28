@@ -12,7 +12,6 @@ lang/multilingue_fr.php -text
 lang/paquet-multilingue_fr.php -text
 /paquet.xml -text
 /plugin.xml -text
-/plugin_multilinguisme.geany -text
 prive/squelettes/contenu/configurer_multilingue.html -text
 prive/themes/spip/images/multilingue-128.png -text
 prive/themes/spip/images/multilingue-32.png -text
