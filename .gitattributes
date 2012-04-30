@@ -2,7 +2,7 @@
 /article.html -text
 /article_spip2.html -text
 /article_spip3.html -text
-formulaires/configurer_multilingue.html -text
+/inc-entete.html -text
 /inc-rubriques.html -text
 inclure/header.html -text
 inclure/menu_langues.html -text
