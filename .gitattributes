@@ -12,7 +12,9 @@ inclure/menu_langues.html -text
 inclure/nav.html -text
 inclure/rubrique_spip3.html -text
 inclure/rubriques.html -text
+lang/multilingue.xml -text
 lang/multilingue_fr.php -text
+lang/paquet-multilingue.xml -text
 lang/paquet-multilingue_fr.php -text
 /paquet.xml -text
 /plugin.xml -text
