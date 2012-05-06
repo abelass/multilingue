@@ -17,6 +17,7 @@ lang/multilingue_fr.php -text
 lang/multilingue_sk.php -text
 lang/paquet-multilingue.xml -text
 lang/paquet-multilingue_fr.php -text
+lang/paquet-multilingue_sk.php -text
 /paquet.xml -text
 /plugin.xml -text
 prive/squelettes/contenu/configurer_multilingue.html -text
