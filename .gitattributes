@@ -6,11 +6,15 @@ contenu/article.html -text
 contenu/rubrique.html -text
 fonds/configurer_multilingue.html -text
 formulaires/configurer_multilingue.html -text
+formulaires/menu_lang.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
 inclure/entete.html -text
 inclure/header.html -text
+inclure/logo_article.html -text
+inclure/logo_rubrique.html -text
 inclure/menu_langues.html -text
+inclure/menu_langues_select.html -text
 inclure/nav.html -text
 inclure/rubrique_spip3.html -text
 inclure/rubriques.html -text
@@ -22,6 +26,7 @@ lang/paquet-multilingue_fr.php -text
 lang/paquet-multilingue_sk.php -text
 /paquet.xml -text
 /plugin.xml -text
+prive/configurer_multilingue.html -text
 prive/squelettes/contenu/configurer_multilingue.html -text
 prive/themes/spip/images/multilingue-128.png -text
 prive/themes/spip/images/multilingue-16.png -text
