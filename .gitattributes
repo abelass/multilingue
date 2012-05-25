@@ -22,6 +22,8 @@ lang/paquet-multilingue_sk.php -text
 /plugin.xml -text
 prive/squelettes/contenu/configurer_multilingue.html -text
 prive/themes/spip/images/multilingue-128.png -text
+prive/themes/spip/images/multilingue-16.png -text svneol=unset#unset
+prive/themes/spip/images/multilingue-24.png -text svneol=unset#unset
 prive/themes/spip/images/multilingue-32.png -text
 prive/themes/spip/images/multilingue-64.png -text
 /rubrique.html -text
