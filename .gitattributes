@@ -4,14 +4,17 @@
 /article_spip3.html -text
 contenu/article.html -text
 contenu/rubrique.html -text
-fonds/configurer_multilingue.html -text
+fonds/cfg_multilingue.html -text
 formulaires/configurer_multilingue.html -text
+formulaires/inc-options-langues.html -text
 formulaires/menu_lang.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
+inclure/article-resume.html -text
 inclure/entete.html -text
 inclure/header.html -text
 inclure/logo_article.html -text
+inclure/logo_article_rubrique.html -text
 inclure/logo_rubrique.html -text
 inclure/menu_langues.html -text
 inclure/menu_langues_select.html -text
@@ -30,6 +33,7 @@ prive/configurer_multilingue.html -text
 prive/squelettes/contenu/configurer_multilingue.html -text
 prive/themes/spip/images/multilingue-128.png -text
 prive/themes/spip/images/multilingue-16.png -text
+prive/themes/spip/images/multilingue-24.png -text
 prive/themes/spip/images/multilingue-32.png -text
 prive/themes/spip/images/multilingue-64.png -text
 /rubrique.html -text
