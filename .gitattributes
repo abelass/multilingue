@@ -4,6 +4,10 @@
 /article_spip3.html -text
 contenu/article.html -text
 contenu/rubrique.html -text
+fonds/cfg_multilingue.html -text
+formulaires/configurer_multilingue.html -text
+formulaires/inc-options-langues.html -text
+formulaires/menu_lang.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
 inclure/article-resume.html -text
