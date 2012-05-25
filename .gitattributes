@@ -6,9 +6,14 @@ contenu/article.html -text
 contenu/rubrique.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
+inclure/article-resume.html -text
 inclure/entete.html -text
 inclure/header.html -text
+inclure/logo_article.html -text
+inclure/logo_article_rubrique.html -text
+inclure/logo_rubrique.html -text
 inclure/menu_langues.html -text
+inclure/menu_langues_select.html -text
 inclure/nav.html -text
 inclure/rubrique_spip3.html -text
 inclure/rubriques.html -text
