@@ -22,6 +22,9 @@ inclure/nav.html -text
 inclure/rubrique_spip3.html -text
 inclure/rubriques.html -text
 lang/multilingue.xml -text
+lang/multilingue_de.php -text
+lang/multilingue_en.php -text
+lang/multilingue_es.php -text
 lang/multilingue_fr.php -text
 lang/multilingue_sk.php -text
 lang/paquet-multilingue.xml -text
