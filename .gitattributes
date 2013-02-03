@@ -31,6 +31,7 @@ lang/paquet-multilingue.xml -text
 lang/paquet-multilingue_en.php -text
 lang/paquet-multilingue_fr.php -text
 lang/paquet-multilingue_sk.php -text
+/multilingue_fonctions.php -text
 /paquet.xml -text
 /plugin.xml -text
 prive/squelettes/contenu/configurer_multilingue.html -text
