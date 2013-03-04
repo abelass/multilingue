@@ -6,7 +6,7 @@ contenu/article.html -text
 contenu/rubrique.html -text
 fonds/cfg_multilingue.html -text
 formulaires/configurer_multilingue.html -text
-formulaires/inc-options-langues.html -text
+formulaires/inc-options-langues_multi.html -text
 formulaires/menu_lang.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
