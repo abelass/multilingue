@@ -11,6 +11,7 @@ formulaires/menu_lang.html -text
 /inc-entete.html -text
 /inc-rubriques.html -text
 inclure/article-resume.html -text
+inclure/barre-nav.html -text
 inclure/entete.html -text
 inclure/header.html -text
 inclure/logo_article.html -text
