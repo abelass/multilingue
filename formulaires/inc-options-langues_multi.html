@@ -6,7 +6,8 @@
 			 value='[(#URL_ACTION_AUTEUR{'converser',
 			'',
 			[(#URL_ARTICLE|parametre_url{lang,'','&'})]}
-				|parametre_url{arg,''})]'
+				|parametre_url{arg,''}
+				|parametre_url{var_lang,#LANG})]'
 			[ (#LANG|=={#ENV{lang}}|oui)selected="selected"]
 			dir="[(#LANG|lang_dir{ltr,rtl})]">
 			[(#LANG|traduire_nom_langue)]
@@ -20,7 +21,8 @@
 			value='[(#URL_ACTION_AUTEUR{'converser',
 				'',
 				[(#URL_RUBRIQUE|parametre_url{lang,'','&'})]}
-					|parametre_url{arg,''})]'
+					|parametre_url{arg,''}
+					|parametre_url{var_lang,#LANG})]'
 			[ (#LANG|=={#ENV{lang}}|oui)selected="selected"]
 			dir="[(#LANG|lang_dir{ltr,rtl})]">
 				[(#LANG|traduire_nom_langue)]
@@ -34,7 +36,8 @@
 					value='[(#URL_ACTION_AUTEUR{'converser',
 						'',
 						[(#SELF|parametre_url{lang,'','&'})]}
-							|parametre_url{arg,''})]'
+							|parametre_url{arg,''}
+							|parametre_url{var_lang,#LANG})]'
 					[ (#LANG|=={#ENV{lang}}|oui)selected="selected"] 
 					dir="[(#LANG|lang_dir{ltr,rtl})]">
 					[(#LANG|traduire_nom_langue)]
