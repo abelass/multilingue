@@ -1,6 +1,6 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// extrait automatiquement de http://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=es
+// extrait automatiquement de https://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=es
 // ** ne pas modifier le fichier **
 
 if (!defined('_ECRIRE_INC_VERSION')) {
@@ -24,7 +24,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	
 	Una vez instalados los plugins necesarios, solo basta con determinar los idiomas del sitio en "Configuración" -> "Multiligüismo/Gestión de los idiomas", y su sitio se vuelve multiligüe
 	
-	',
+	', # MODIF
 	'multilingue_nom' => 'Sitio multilingüe fácil',
 	'multilingue_slogan' => 'Crear fácilmente un sitio multilingüe'
 );

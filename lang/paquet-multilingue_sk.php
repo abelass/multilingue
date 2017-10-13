@@ -1,6 +1,6 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// extrait automatiquement de http://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=sk
+// extrait automatiquement de https://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=sk
 // ** ne pas modifier le fichier **
 
 if (!defined('_ECRIRE_INC_VERSION')) {
@@ -23,7 +23,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	
 	Zásuvný modul mení aj niektoré šablóny (rubriky a články) a niekoľko základných orieškov.
 	
-	Keď nainštalujete potrebné zásuvné moduly, jazyky stránky vyberte v menu  "Konfigurácia"->"Viacjazyčnosť/Riadenie jazykov"	a potom bude vaša stránka viacjazyčná',
+	Keď nainštalujete potrebné zásuvné moduly, jazyky stránky vyberte v menu  "Konfigurácia"->"Viacjazyčnosť/Riadenie jazykov"	a potom bude vaša stránka viacjazyčná', # MODIF
 	'multilingue_nom' => 'Jednoduchá viacjazyčná stránka',
 	'multilingue_slogan' => 'Vytvorte jednoduchú viacjazyčnú stránku'
 );

@@ -1,6 +1,6 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// extrait automatiquement de http://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=ru
+// extrait automatiquement de https://trad.spip.net/tradlang_module/paquet-multilingue?lang_cible=ru
 // ** ne pas modifier le fichier **
 
 if (!defined('_ECRIRE_INC_VERSION')) {
@@ -23,7 +23,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Плагин также изменяет некоторые скелеты (sommaire.html, rubrique.html и article.html), а некоторые другие «включает в себя».
 
-После того, как необходимые плагины активированы, просто определить язык сайта в разделе «Настройки» -> «Многоязычность» -> «Языковые настройки», и ваш сайт станет многоязычным, вы сможете начать его наполнять.',
+После того, как необходимые плагины активированы, просто определить язык сайта в разделе «Настройки» -> «Многоязычность» -> «Языковые настройки», и ваш сайт станет многоязычным, вы сможете начать его наполнять.', # MODIF
 	'multilingue_nom' => 'Easy Multilingual web-site',
 	'multilingue_slogan' => 'Легко создать многоязычный сайт'
 );
