@@ -1,5 +1,4 @@
 /.project
-/README.md
-/fonds
-/formulaires
-/.project
+.settings*
+.buildpath
+

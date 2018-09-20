@@ -4,8 +4,8 @@ if (!defined('_ECRIRE_INC_VERSION'))
 
 include_spip('plugins/installer');
 
-// Spip 3.2  ajoute le logo original à sa traduction, du coup élimine l'original avec cette fonction.
-if (spip_version_compare($GLOBALS['spip_version_affichee'],'3.2.0','<')) {
+// Spip 3.2 ajoute le logo original à sa traduction, du coup élimine l'original avec cette fonction.
+if (spip_version_compare($GLOBALS['spip_version_affichee'], '3.2.0', '<')) {
 	include_spip('inc/config');
 
 	if (!lire_config('multilingue/desactiver_traduction_logo_objet')) {
@@ -13,6 +13,7 @@ if (spip_version_compare($GLOBALS['spip_version_affichee'],'3.2.0','<')) {
 	}
 
 	if (($traduire_logo == 'ok') and (!test_plugin_actif('logos_roles'))) {
+
 		// surcharge de https://code.spip.net/@inc_chercher_logo_dist pour ajouter
 		function inc_chercher_logo($id, $_id_objet, $mode = 'on') {
 			include_spip('inc/chercher_logo');
@@ -37,21 +38,18 @@ if (spip_version_compare($GLOBALS['spip_version_affichee'],'3.2.0','<')) {
 					);
 				}
 				// si pas de logo on cherche si l'article d'origine en a un
-				elseif (
-					$tables[$table]['field']['id_trad'] and
-					$id_trad = sql_getfetsel('id_trad', $table, $_id_objet . '=' . intval($id)) and
-					_request('exec') != $objet) {
-						$nom = $type . $mode . intval($id_trad);
-						if (@file_exists($d = (_DIR_LOGOS . $nom . '.' . $format))) {
-							return array(
-								$d,
-								_DIR_LOGOS,
-								$nom,
-								$format,
-								@filemtime($d)
-							);
-						}
-						;
+				elseif ($tables[$table]['field']['id_trad'] and $id_trad = sql_getfetsel('id_trad', $table, $_id_objet . '=' . intval($id)) and _request('exec') != $objet) {
+					$nom = $type . $mode . intval($id_trad);
+					if (@file_exists($d = (_DIR_LOGOS . $nom . '.' . $format))) {
+						return array(
+							$d,
+							_DIR_LOGOS,
+							$nom,
+							$format,
+							@filemtime($d)
+						);
+					}
+					;
 				}
 			}
 			// coherence de type pour servir comme filtre (formulaire_login)
